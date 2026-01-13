@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlazeLine - Your Direct Line to Safety, Service, and Community</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+    <meta name="description" content="The official website of BlazeLine Fire Department. Emergency response, fire prevention, and community education services.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <h1>BlazeLine</h1>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#safety" class="nav-link">Safety Resources</a></li>
+                        <li><a href="#news" class="nav-link">News & Updates</a></li>
+                        <li><a href="#join" class="nav-link">Join Us</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Protecting & Serving Our Community</h1>
+                    <p class="hero-subtitle">Your direct line to safety, service, and community.</p>
+                    <div class="hero-buttons">
+                        <a href="tel:911" class="btn btn-emergency emergency-btn">IN EMERGENCY, DIAL 911</a>
+                        <a href="#services" class="btn btn-outline">Non-Emergency Services</a>
+                    </div>
+                </div>
+                <div class="hero-fire-truck" aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <!-- Live Status Bar -->
+        <section class="status-bar">
+            <div class="container">
+                <div class="status-content">
+                    <div class="status-item">
+                        <span class="status-label">Current Response Status:</span>
+                        <span class="status-value status-ready">READY</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Burn Ban:</span>
+                        <span class="status-value">OFF</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Non-Emergency #:</span>
+                        <span class="status-value">09876543210</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="mission" id="about">
+            <div class="container">
+                <div class="mission-content">
+                    <h2 class="section-title">Our Mission</h2>
+                    <p class="mission-text">
+                        The dedicated professionals of BlazeLine are committed to emergency response, 
+                        fire prevention, and public education for the safety of our community.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">Core Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 3c2 3-1 4-1 7 0 3 3 4 3 7 0 3-2 4-4 4s-4-2-4-5c0-3 2-5 4-7 1-1 1-2 2-6z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Emergency Response</h3>
+                        <p class="service-description">24/7 professional emergency services including fire suppression, medical aid, and rescue operations.</p>
+                        <a href="emergency-response.html" class="service-link">Learn More</a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="5"/>
+                                <line x1="15.5" y1="15.5" x2="20" y2="20"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Fire Prevention & Inspection</h3>
+                        <p class="service-description">Comprehensive fire safety inspections, code compliance, and prevention education for homes and businesses.</p>
+                        <a href="fire-prevention.html" class="service-link">Learn More</a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 6h9v12H3z"/>
+                                <path d="M12 6h9v12h-9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Community Education</h3>
+                        <p class="service-description">Safety training programs, school visits, and community outreach to promote fire safety awareness.</p>
+                        <a href="community-education.html" class="service-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safety Resources Section -->
+        <section class="safety-resources" id="safety">
+            <div class="container">
+                <h2 class="section-title">Safety Resources</h2>
+                <div class="safety-grid">
+                    <div class="safety-card">
+                        <div class="safety-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="4"/>
+                                <line x1="6" y1="14" x2="18" y2="14"/>
+                                <line x1="8" y1="18" x2="10" y2="18"/>
+                                <line x1="14" y1="18" x2="16" y2="18"/>
+                            </svg>
+                        </div>
+                        <h3 class="safety-title">Home Fire Safety</h3>
+                        <p class="safety-description">Essential tips for preventing fires in your home, including smoke detector maintenance, electrical safety, and escape planning.</p>
+                        <ul class="safety-tips">
+                            <li>Test smoke alarms monthly</li>
+                            <li>Keep fire extinguishers accessible</li>
+                            <li>Create and practice escape plans</li>
+                            <li>Never leave cooking unattended</li>
+                        </ul>
+                        <a href="home-fire-safety.html" class="safety-link">Learn More</a>
+                    </div>
+                    
+                    <div class="safety-card">
+                        <div class="safety-icon feature-img">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 7h6v11H9z"/>
+                                <path d="M15 9h4"/>
+                                <path d="M19 9v3"/>
+                            </svg>
+                        </div>
+                        <h3 class="safety-title">Fire Extinguisher Guide</h3>
+                        <p class="safety-description">Learn the proper types of fire extinguishers for different fires and how to use them effectively with the PASS technique.</p>
+                        <ul class="safety-tips">
+                            <li>Know your extinguisher types (A, B, C, D, K)</li>
+                            <li>Remember PASS: Pull, Aim, Squeeze, Sweep</li>
+                            <li>Check pressure gauges regularly</li>
+                            <li>Replace or service as needed</li>
+                        </ul>
+                        <a href="fire-extinguisher-guide.html" class="safety-link">Learn More</a>
+                    </div>
+                    
+                    <div class="safety-card">
+                        <div class="safety-icon feature-img">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="4" y="8" width="16" height="10" rx="2"/>
+                                <path d="M8 8V6h8v2"/>
+                                <path d="M12 11v4"/>
+                                <path d="M10 13h4"/>
+                            </svg>
+                        </div>
+                        <h3 class="safety-title">Emergency Preparedness</h3>
+                        <p class="safety-description">Be ready for any emergency with proper planning, emergency kits, and communication strategies for your family.</p>
+                        <ul class="safety-tips">
+                            <li>Build a 72-hour emergency kit</li>
+                            <li>Establish family communication plans</li>
+                            <li>Know local evacuation routes</li>
+                            <li>Stay informed about local hazards</li>
+                        </ul>
+                        <a href="emergency-preparedness.html" class="safety-link">Learn More</a>
+                    </div>
+                    
+                    <div class="safety-card">
+                        <div class="safety-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="6" y="4" width="8" height="16"/>
+                                <path d="M14 12h6"/>
+                                <path d="M18 10l2 2-2 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="safety-title">Workplace Safety</h3>
+                        <p class="safety-description">Ensure your workplace meets fire safety standards with proper exits, equipment maintenance, and employee training programs.</p>
+                        <ul class="safety-tips">
+                            <li>Keep exits clear and marked</li>
+                            <li>Store chemicals properly</li>
+                            <li>Maintain electrical equipment</li>
+                            <li>Conduct regular fire drills</li>
+                        </ul>
+                        <a href="workplace-safety.html" class="safety-link">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="safety-emergency-banner">
+                    <div class="emergency-content">
+                        <h3 class="emergency-title">🚨 In Case of Emergency</h3>
+                        <p class="emergency-text">If you smell smoke, see flames, or suspect a fire, evacuate immediately and call 911. Do not re-enter the building until firefighters declare it safe.</p>
+                        <a href="tel:911" class="btn btn-emergency emergency-btn">CALL 911 NOW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="news" id="news">
+            <div class="container">
+                <h2 class="section-title">From the BlazeLine</h2>
+                <div class="news-grid">
+                    <article class="news-item">
+                        <div class="news-date">December 15, 2025</div>
+                        <h3 class="news-title">Annual Fire Safety Inspection Program Launches</h3>
+                        <p class="news-excerpt">Our team begins the 2025 safety inspection program for local businesses and residential buildings.</p>
+                        <a href="news-fire-inspection.html" class="news-link">Read More</a>
+                    </article>
+                    
+                    <article class="news-item">
+                        <div class="news-date">November 10, 2025</div>
+                        <h3 class="news-title">Community CPR Training Session</h3>
+                        <p class="news-excerpt">Join us for a free CPR certification class on Saturday, January 20th at the fire station.</p>
+                        <a href="news-cpr-training.html" class="news-link">Read More</a>
+                    </article>
+                    
+                    <article class="news-item">
+                        <div class="news-date">November 5, 2025</div>
+                        <h3 class="news-title">Winter Heating Safety Tips</h3>
+                        <p class="news-excerpt">Important safety reminders for keeping your home warm and safe during the winter months.</p>
+                        <a href="news-winter-safety.html" class="news-link">Read More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Crew Section -->
+        <section class="crew" id="crew">
+            <div class="container">
+                <h2 class="section-title">The Faces of BlazeLine</h2>
+                <div class="crew-grid">
+                    <div class="crew-member" data-crew="sarah-johnson">
+                        <div class="crew-photo">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Chief Sarah Johnson" class="crew-img">
+                        </div>
+                        <h3 class="crew-name">Chief Sarah Johnson</h3>
+                        <p class="crew-rank">Fire Chief</p>
+                    </div>
+                    
+                    <div class="crew-member" data-crew="mike-rodriguez">
+                        <div class="crew-photo">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Captain Mike Rodriguez" class="crew-img">
+                        </div>
+                        <h3 class="crew-name">Captain Mike Rodriguez</h3>
+                        <p class="crew-rank">Operations Captain</p>
+                    </div>
+                    
+                    <div class="crew-member" data-crew="emily-chen">
+                        <div class="crew-photo">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Lieutenant Emily Chen" class="crew-img">
+                        </div>
+                        <h3 class="crew-name">Lieutenant Emily Chen</h3>
+                        <p class="crew-rank">Training Officer</p>
+                    </div>
+                    
+                    <div class="crew-member" data-crew="david-thompson">
+                        <div class="crew-photo">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Paramedic David Thompson" class="crew-img">
+                        </div>
+                        <h3 class="crew-name">Paramedic David Thompson</h3>
+                        <p class="crew-rank">EMS Coordinator</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta" id="join">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Serve?</h2>
+                    <p class="cta-text">Join our team of dedicated professionals committed to protecting our community.</p>
+                    <a href="#contact" class="btn btn-primary">Join BlazeLine</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>BlazeLine</h3>
+                    </div>
+                    <div class="footer-contact">
+                        <p>103 Fire Station Lane</p>
+                        <p>Digos City, 1st Cram</p>
+                        <p>Phone: 09876543210</p>
+                        <p>Email: info@blazeline.gov</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#safety">Safety Resources</a></li>
+                        <li><a href="#news">News</a></li>
+                        <li><a href="#join">Join Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#safety">Safety Checklists</a></li>
+                        <li><a href="fire-prevention.html">Fire Prevention</a></li>
+                        <li><a href="community-education.html">Community Programs</a></li>
+                        <li><a href="fire-prevention.html#inspection-info">Inspection Request</a></li>
+                        <li><a href="#contact">Contact Form</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="disclaimer">
+                    <strong>Important:</strong> This website is not monitored 24/7. For emergencies, please call 911.
+                </p>
+                <p class="copyright">
+                    © 2025 BlazeLine Fire Department. All rights reserved.
+                </p>
+                <div class="footer-legal">
+                    <a href="#">Sitemap</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
